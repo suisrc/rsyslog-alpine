@@ -1,5 +1,5 @@
 # https://pkgs.alpinelinux.org/packages?name=rsyslog*&branch=v3.11&arch=x86_64
-FROM   alpine:3.11
+FROM   alpine:3.11.2
 LABEL  maintainer="alpinelinux@suisrc.com"
 RUN    apk add --no-cache \
        rsyslog \
