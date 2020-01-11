@@ -12,11 +12,11 @@ RUN    apk add --no-cache \
        rsyslog-mmutf8fix \
        rsyslog-elasticsearch \
        rsyslog-uxsock \
-       rsyslog-imdocker
+       rsyslog-relp \
+       rsyslog-imdocker \
+       rsyslog-hiredis \
+       rsyslog-rabbitmq
 #       rsyslog-http \
-#       rsyslog-hiredis \
-#       rsyslog-relp \
-#       rsyslog-rabbitmq \
 #       rsyslog-snmp
 RUN    adduser -s /bin/ash -D rsyslog rsyslog \
        && echo "rsyslog ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers

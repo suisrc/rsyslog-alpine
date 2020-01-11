@@ -6,7 +6,7 @@ if [ "$CONTAINER_SILENT" != "on" ]; then
 	echo `cat CONTAINER.name` version `cat CONTAINER.release` - `cat CONTAINER.homepage`
 	echo `cat CONTAINER.copyright`
 	echo
-	echo "WARNING: this is an experimental container - do not use in production"
+	echo "WARNING: this is an test container - do not use in production"
 	echo
 fi
 
